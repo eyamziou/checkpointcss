@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css">
+
 </head>
 
 <body>
@@ -14,31 +16,55 @@
         <img class="petite" src="./res/section2GMCLogo.png" alt="">
         <ul class="ul1">
             <a class=first-item href="./index.html">
-                <li>home</li>
+                <li>HOME</li>
             </a>
             <a class=first-item href="./courses.HTML">
-                <li>courses</li>
+                <li>COURSES</li>
             </a>
             <a class=first-item href="./contact.HTML">
-                <li>contact</li>
+                <li>CONTACT</li>
             </a>
         </ul>
     </header>
     <img class="firstimg" src="https://pbs.twimg.com/media/D5FucxVUYAAVJ3I.png" alt=""><br>
-    <hr>
     <h1 class="COURSES">COURSES</h1>
     <div class="captures">
-        <img class="cap1" src="./res/Capture1.PNG" alt="">
-        <img class="cap2" src="./res/Capture2.PNG" alt="">
-        <img class="cap3" src="./res/Capture3.PNG" alt="">
-    </div>
-    <a class="viewmore" href="./courses.HTML">
+        <div class="capI">
+            <div class=" backgrn_aff">
+                <a href="#ex1" rel="modal:open"><button>View More</button></a>
+            </div>
+        </div>
+        <div class="capII">
+            <div class=" backgrn_aff">
+                <a href="#ex1" rel="modal:open"><button>View More</button></a>
+            </div>
+        </div>
+        <div class="capIII">
+            <div class=" backgrn_aff">
+                <a href="#ex1" rel="modal:open"><button>View More</button></a>
+            </div>
+        </div>
+            </div><br>
+    <a class="viewmore" href="./courses.HTML">  
         <li>view more...</li>
     </a>
+    <hr>
     <h1 class="COURSES">More about GoMyCode:</h1><br>
     <div class="captures">
         <iframe class=vid src="https://www.youtube.com/embed/MkLog_27S6U" frameborder="0"></iframe>
     </div>
+    <div id="ex1" class="modal">
+            <p>This is GoMyCode Track. <br>
+                    Each track has its own goal. <br>
+                    By adopting this track, you chose your own goal.</p>
+            
+          </div>
+                 
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
-</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<script src="./js/main.js"></script>
+
+</html>.
